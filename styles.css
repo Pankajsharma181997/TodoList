@@ -1,0 +1,49 @@
+.todoWrapper{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-section{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-wrapper{
+    position: relative;
+    border: 1px solid black;
+}
+
+.input-field{
+    padding: 10px;
+    width: 80%;
+    border: none;
+}
+
+.input-field:focus-visible{
+    outline: none;
+}
+
+.input-cancel{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0,-50%);
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+.todo{
+    margin: 10px;
+}
+
+.todo-input{
+    padding: 5px;
+}
